@@ -1,8 +1,10 @@
 # MyBatis Batch Performance #
 
-This is a toy benchmark to check the performance of a regular MyBatis
-insert vs. a MyBatis loop (multi-row) insert & a raw JDBC batch
-insert.
+This is a toy benchmark to check the performance of a regular [MyBatis
+insert](https://mybatis.org/mybatis-3/sqlmap-xml.html#insert_update_and_delete)
+vs. a [MyBatis loop (multi-row)
+insert](https://mybatis.org/mybatis-dynamic-sql/docs/insert.html#XML_Mapper_for_Multiple_Row_Insert_Statements)
+& a raw JDBC batch insert.
 
 The benchmark is created by repeatedly creating a `person` table with the following columns
 
